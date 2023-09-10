@@ -16,7 +16,7 @@ fetch(url, options)
     cover.innerHTML = coinList.map((coin) => {
       return ` <li>
               <div class="first">
-                <img src=${coin.iconUrl} alt="btc" height="30px" />
+                <img src=${coin.iconUrl} alt="btc" height="25px" />
                 <div>${coin.name}<br /><span class="symbol">${
         coin.symbol
       }</span></div>
